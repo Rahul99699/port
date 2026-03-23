@@ -1,0 +1,106 @@
+﻿
+> portfolio@0.1.0 build
+> next build
+
+  Γû▓ Next.js 14.2.3
+  - Environments: .env.local
+
+   Creating an optimized production build ...
+node.exe : 
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (:String) [],    
+ RemoteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+[1m[33mwarn[39m[22m
+ - The class 
+`duration-[650ms]` is 
+ambiguous and matches 
+multiple utilities.
+[1m[33mwarn[39m[22m
+ - If this is content 
+and not a class, 
+replace it with `durati
+on-&lsqb;650ms&rsqb;` 
+to silence this 
+warning.
+ Γ£ô Compiled successfully
+   Skipping linting
+   Checking validity of types ...
+   Collecting page data ...
+Error: Missing API 
+key. Pass it to the 
+constructor `new 
+Resend("re_123")`
+    at new $ (C:\Users\
+r9979\OneDrive\Attachme
+nts\12as\.next\server\a
+pp\api\send\route.js:1:
+7769)
+    at 25724 (C:\Users\
+r9979\OneDrive\Attachme
+nts\12as\.next\server\a
+pp\api\send\route.js:1:
+66015)
+    at t (C:\Users\r997
+9\OneDrive\Attachments\
+12as\.next\server\webpa
+ck-runtime.js:1:128)
+    at r (C:\Users\r997
+9\OneDrive\Attachments\
+12as\.next\server\app\a
+pi\send\route.js:1:6838
+7)
+    at C:\Users\r9979\O
+neDrive\Attachments\12a
+s\.next\server\app\api\
+send\route.js:1:68414
+    at t.X (C:\Users\r9
+979\OneDrive\Attachment
+s\12as\.next\server\web
+pack-runtime.js:1:2135)
+    at C:\Users\r9979\O
+neDrive\Attachments\12a
+s\.next\server\app\api\
+send\route.js:1:68400
+    at 
+Object.<anonymous> (C:\
+Users\r9979\OneDrive\At
+tachments\12as\.next\se
+rver\app\api\send\route
+.js:1:68442)
+    at Module._compile 
+(node:internal/modules/
+cjs/loader:1812:14)
+    at Object..js (node
+:internal/modules/cjs/l
+oader:1943:10)
+
+> Build error occurred
+Error: Failed to 
+collect page data for 
+/api/send
+    at C:\Users\r9979\O
+neDrive\Attachments\12a
+s\node_modules\next\dis
+t\build\utils.js:1268:1
+5
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5) {
+  type: 'Error'
+}

@@ -1,0 +1,146 @@
+﻿
+> portfolio@0.1.0 build
+> next build
+
+  Γû▓ Next.js 14.2.3
+  - Environments: .env.local
+
+   Creating an optimized production build ...
+node.exe :  ΓÜá 
+Compiled with warnings
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: ( ΓÜá Compiled   
+  with warnings:Str    
+ing) [], RemoteExc    
+eption
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+
+./src/components/sectio
+ns/hero.tsx
+Attempted import 
+error: 'SiLinkedin' is 
+not exported from '__ba
+rrel_optimize__?names=S
+iGithub,SiLinkedin,SiX!
+=!react-icons/si' 
+(imported as 
+'SiLinkedin').
+
+Import trace for 
+requested module:
+./src/components/sectio
+ns/hero.tsx
+./src/app/page.tsx
+
+./src/components/social
+/social-media-icons.tsx
+Attempted import 
+error: 'SiLinkedin' is 
+not exported from '__ba
+rrel_optimize__?names=S
+iGithub,SiInstagram,SiL
+inkedin,SiX!=!react-ico
+ns/si' (imported as 
+'SiLinkedin').
+
+Import trace for 
+requested module:
+./src/components/social
+/social-media-icons.tsx
+
+ ΓÜá Compiled with 
+warnings
+
+./src/components/sectio
+ns/hero.tsx
+Attempted import 
+error: 'SiLinkedin' is 
+not exported from '__ba
+rrel_optimize__?names=S
+iGithub,SiLinkedin,SiX!
+=!react-icons/si' 
+(imported as 
+'SiLinkedin').
+
+Import trace for 
+requested module:
+./src/components/sectio
+ns/hero.tsx
+./src/app/page.tsx
+
+./src/components/social
+/social-media-icons.tsx
+Attempted import 
+error: 'SiLinkedin' is 
+not exported from '__ba
+rrel_optimize__?names=S
+iGithub,SiInstagram,SiL
+inkedin,SiX!=!react-ico
+ns/si' (imported as 
+'SiLinkedin').
+
+Import trace for 
+requested module:
+./src/components/social
+/social-media-icons.tsx
+
+ Γ£ô Compiled successfully
+   Skipping linting
+   Checking validity of types ...
+Failed to compile.
+
+./src/components/sectio
+ns/experience.tsx:11:6
+Type error: Type '{ 
+children: Element; 
+className: string; }' 
+is missing the 
+following properties 
+from type 
+'SectionWrapperProps': 
+id, zoneIndex
+
+[0m [90m  9 |[39m 
+[36mconst[39m [33mEx
+perienceSection[39m 
+[33m=[39m () 
+[33m=>[39m {[0m
+[0m [90m 10 |[39m   
+[36mreturn[39m ([0m
+[0m[31m[1m>[22m[39
+m[90m 11 |[39m     [
+33m<[39m[33mSectionWr
+apper[39m[0m
+[0m [90m    |[39m   
+   [31m[1m^[22m[39m
+[0m
+[0m [90m 12 |[39m   
+    className[33m=[39
+m[32m"flex flex-col 
+items-center 
+justify-center 
+min-h-[120vh] py-20 
+z-10"[39m[0m
+[0m [90m 13 |[39m   
+  [33m>[39m[0m
+[0m [90m 14 |[39m   
+    [33m<[39m[33mdiv
+[39m className[33m=[
+39m[32m"w-full 
+max-w-4xl px-4 md:px-8 
+mx-auto"[39m[33m>[39
+m[0m

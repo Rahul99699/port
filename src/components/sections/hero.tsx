@@ -7,7 +7,8 @@ import { File, Github, Linkedin, Brain, Sparkles, ExternalLink } from "lucide-re
 import { config } from "@/data/config";
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import NanoAssemblyText from "../ui/nano-assembly-text";
-import { SiGithub, SiLinkedin, SiX } from "react-icons/si";
+import { SiGithub, SiX } from "react-icons/si";
+import { FaLinkedin } from "react-icons/fa";
 
 const HeroSection = () => {
   const mounted = useMounted();
@@ -108,7 +109,7 @@ const HeroSection = () => {
           
           <div className="mt-12 flex gap-4">
             {[config.social.github, config.social.linkedin, config.social.twitter].map((link, i) => {
-              const Icon = [SiGithub, SiLinkedin, SiX][i];
+              const Icon = [SiGithub, FaLinkedin, SiX][i];
               return (
                 <Link key={i} href={link} target="_blank">
                   <Button variant="ghost" size="icon" className="text-[#9ca3af] hover:text-[#00d4ff] hover:bg-[#00d4ff]/10 transition-all">

@@ -6,7 +6,7 @@ import { motion, useInView } from "framer-motion";
 interface SectionWrapperProps {
   children: React.ReactNode;
   id: string;
-  zoneIndex: string;
+  zoneIndex: string | number;
   className?: string;
 }
 
