@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #040a1c;
+    --foreground: #e5e7eb;
+    --accent: #00d4ff;
+    --accent-secondary: #0070ff;
+    --text-primary: #e5e7eb;
+    --text-secondary: #9ca3af;
+    --success: #00ff88;
+    --card-surface: rgba(255, 255, 255, 0.04);
+  }
+
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    @apply font-sans;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #040a1c;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(0, 200, 255, 0.3);
+    border-radius: 2px;
+  }
+}
+
+@layer components {
+  .nano-glass {
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(14px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    transition: all 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .nano-glass:hover {
+    border-color: rgba(0, 210, 255, 0.35);
+    transform: translateY(-6px) scale(1.015);
+    box-shadow: 0 8px 40px rgba(0, 200, 255, 0.12), 0 0 0 1px rgba(0, 200, 255, 0.1);
+  }
+
+  .nano-button {
+    @apply font-mono border border-[#00d4ff]/50 text-[#00d4ff] bg-transparent tracking-[0.15em] rounded-lg px-6 py-2 transition-all duration-300;
+  }
+
+  .nano-button:hover {
+    @apply bg-[#00d4ff] text-[#040a1c] scale-105;
+    box-shadow: 0 0 24px rgba(0, 212, 255, 0.4);
+  }
+
+  .nano-text-glow {
+    text-shadow: 0 0 8px rgba(0, 212, 255, 0.4);
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display);
+  }
+  .font-mono {
+    font-family: var(--font-mono);
+  }
+  .font-sans {
+    font-family: var(--font-sans);
+  }
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+}
